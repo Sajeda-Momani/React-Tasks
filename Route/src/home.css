@@ -1,0 +1,31 @@
+.hero {
+    background-image: url('https://hd.wallpaperswide.com/thumbs/windows_10_hero_4k-t2.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 300PX;
+}
+hero h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68303;
+}
